@@ -4,8 +4,7 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 
 //Email validator with javax.mail.jar
-public class EmailValidator
-{	
+public class EmailValidator{	
 
 	 public static boolean emailValidator(String email) {
 	    boolean isValid = false;
